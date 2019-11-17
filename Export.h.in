@@ -1,0 +1,12 @@
+#ifndef CXX_FRAMEWORK_EXPORT_H_
+#define CXX_FRAMEWORK_EXPORT_H_
+
+#include <string>
+
+std::string GetGitHash();
+
+std::string GetGitBranch();
+
+std::string GetExportTimestamp();
+
+#endif  // CXX_FRAMEWORK_EXPORT_H_

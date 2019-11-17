@@ -1,0 +1,13 @@
+#include "Export.h"
+
+static const std::string kGitHash = "@hash@";
+
+static const std::string kGitBranch = "@branch@";
+
+static const std::string kExportTimestamp = "@timestamp@";
+
+std::string GetGitHash() { return kGitHash; }
+
+std::string GetGitBranch() { return kGitBranch; }
+
+std::string GetExportTimestamp() { return kExportTimestamp; }
