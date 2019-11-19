@@ -17,6 +17,7 @@ add_one_test(SimpleIni_test)
 add_one_test(catch_010-TestCase)
 add_one_test(spdlog_test)
 add_one_test(xmltest)
+add_one_test(waitkey_test)
 
 # Copy test resources and create test output directory
 add_custom_command(TARGET xmltest POST_BUILD
