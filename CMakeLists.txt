@@ -37,6 +37,9 @@ target_include_directories(json INTERFACE ${PROJECT_SOURCE_DIR}/json)
 # tinyxml2
 add_subdirectory(tinyxml2)
 
+# utils
+add_subdirectory(utils)
+
 # export library
 include(Export.cmake)
 add_library(${PROJECT_NAME}
@@ -51,7 +54,8 @@ SimpleIni
 catch
 spdlog::spdlog
 json
-tinyxml2)
+tinyxml2
+framework::utils)
 source_group(template FILES ${export_cpp}.in ${export_h}.in)
 
 # build tests
