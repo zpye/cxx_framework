@@ -5,7 +5,7 @@
 int main() {
   while (true) {
     std::cout << "Please input..." << std::endl;
-    int key = WaitKey();
+    int key = WaitKey(500);
 
     std::cout << "key: " << key << " " << (char)key << std::endl;
 
